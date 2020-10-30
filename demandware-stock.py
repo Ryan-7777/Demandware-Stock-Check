@@ -3,8 +3,8 @@ import atexit
 import json
 import time
 
-product_sku = 'FX9846'
-site = 'yeezysupply'  # Any demandware site (i.e. yeezysupply or adidas)
+product_sku = ''
+site = 'adidas'  # Any demandware site (i.e. yeezysupply or adidas)
 target_site = 'https://www.' + str(site).lower() + '.com/api/products/' + str(product_sku).upper() + '/availability'
 timeout_retry_seconds = 180
 refresh_rate_seconds = 15
